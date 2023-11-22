@@ -5,7 +5,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/prashantjagtap2909/Simson">
-    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--W7GejIJa--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/dcpjkjeyphzebkjyvemv.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/prashantjagtap2909/Simson/assets/93985255/48ec0435-d238-4729-99bc-64a287648326" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">A Simson game </h3>
