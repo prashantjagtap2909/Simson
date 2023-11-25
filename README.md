@@ -30,7 +30,6 @@
 * [Built With](#built-with)
 
 * [Installation](#installation)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
