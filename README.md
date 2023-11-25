@@ -57,9 +57,6 @@ git clone https://github.com/prashantjagtap2909/Simson.git
 ```
 
 
-## Roadmap
-
-See the [open issues](https://github.com/prashantjagtap2909/Simson/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
