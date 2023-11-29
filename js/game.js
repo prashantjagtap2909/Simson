@@ -111,57 +111,52 @@ function nextSequence() {
   //24. Inside the new function generate a new random number between 0 and 3, and store it in a variable called randomNumber
   var randomNumber = Math.floor(Math.random() * 4);
 
-  //25. Create a new variable called randomChosenColour and use the randomNumber from step 2 to select a random colour from the buttonColours array.
+ 
   var randomChosenColour = buttonColours[randomNumber];
 
-  //26. Add the new randomChosenColour generated in step 4 to the end of the gamePattern.
+  
   gamePattern.push(randomChosenColour);
 
-  //27. Use jQuery to select the button with the same id as the randomChosenColour
-  //28. Use Google/Stackoverflow to figure out how you can use jQuery to animate a flash to the button selected in step 1.
   $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
 
 /*
 
-  // old code
-  //28. Use Google/Stackoverflow to figure out how you can use Javascript to play the sound for the button colour selected in step 1.
+ 
   var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
   audio.play();
 
 }
 */
 
-  //29. Refactor the code in playSound() so that it will work for both playing sound in nextSequence() and when the user clicks a button.
+ 
   playSound(randomChosenColour);
 }
 
 
-
-//30. Create a new function called animatePress(), it should take a single input parameter called currentColour.
 function animatePress(currentColor) {
 
-  //31. Use jQuery to add this pressed class to the button that gets clicked inside animatePress().
+
   $("#" + currentColor).addClass("pressed");
 
-  //32. use Google/Stackoverflow to figure out how you can use Javascript to remove the pressed class after a 100 milliseconds.
+
   setTimeout(function () {
     $("#" + currentColor).removeClass("pressed");
   }, 100);
 }
 
-//33. Create a new function called playSound() that takes a single input parameter called name.
+
 function playSound(name) {
 
-  //34. Take the code we used to play sound in the nextSequence() function and add it to playSound().
+  
   var audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
 }
 
 
-//35. Create a new function called startOver().
+
 function startOver() {
 
-  //36. Inside this function, you'll need to reset the values of level, gamePattern and started variables.
+  
   level = 0;
   gamePattern = [];
   started = false;
