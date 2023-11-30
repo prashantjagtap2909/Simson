@@ -1,18 +1,18 @@
 
 
-//1. At the top of the game.js file, create a new array called buttonColours and set it to hold the sequence "red", "blue", "green", "yellow" .
+
 var buttonColours = ["red", "blue", "green", "yellow"];
 
-//2. At the top of the game.js file, create a new empty array called gamePattern.
+
 var gamePattern = [];
 
-//3. At the top of the game.js file, create a new empty array with the name userClickedPattern.
+
 var userClickedPattern = [];
 
-//4. You'll need a way to keep track of whether if the game has started or not, so you only call nextSequence() on the first keypress.
+
 var started = false;
 
-//5. Create a new variable called level and start at level 0.
+
 var level = 0;
 
 //6. Use jQuery to detect when a keyboard key has been pressed, when that happens for the first time, call nextSequence().
