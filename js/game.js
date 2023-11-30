@@ -26,11 +26,7 @@ $(document).keypress(function() {
   }
 });
 
-/*
-$( "p" ).click(function() {
-  $( this ).slideUp();
-});
-*/
+
 
 //8. Use jQuery to detect when any of the buttons are clicked and trigger a handler function.
 $(".btn").click(function() {
